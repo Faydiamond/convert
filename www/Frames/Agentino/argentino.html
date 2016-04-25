@@ -1,0 +1,34 @@
+<ion-view view-title="Conversor de divisas ">
+  <ion-content>
+
+    <div class="bar bar-header bar-calm">
+      <h1 class="title">Conversor de divisas</h1>
+      </div>
+    <br>
+    <br>
+    <br>
+    <center>
+      <img src="img/argentino.jpg">
+    </center>
+    <!-- -->
+    <label class="item item-input">
+      <span class="input-label">Ingrese la cantidad en pesos</span>
+      <input type="text" ng-model='algo.num'>
+    </label>
+    <!-- -->
+    <div class="">
+      <br><br><br>
+      <center>
+      <p>
+          El resultado es :<br> {{res}}
+      </p>
+    </center>
+
+    </div>
+    <center>
+      <button class="button button-outline button-calm" ng-click="showAlert()">
+        Calcular
+      </button>
+    </center>
+  </ion-content>
+</ion-view>
